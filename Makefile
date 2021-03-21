@@ -1,6 +1,7 @@
 
 all:
 	sdcc -I /usr/local/share/sdcc/include/mcs51/ led.c
+	packihx led.ihx > led.hex
 
 clean:
 	rm -f *.lst
