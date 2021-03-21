@@ -7,3 +7,4 @@ led.asm
 *.rel
 *.rst
 *.sym
+*.hex
