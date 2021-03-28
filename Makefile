@@ -27,7 +27,7 @@ PACK   = packihx
 PROG   = cc-tool
 
 # OPTIONS
-COPT   = -c
+COPT   = -c --debug
 MEM    = --model-small
 PROPT  = -v -e
 
@@ -65,4 +65,6 @@ clean:
 	rm -f *.lk
 	rm -f *.ihx
 	rm -f *.asm
+	rm -f *.cdb
+	rm -f *.adb
 

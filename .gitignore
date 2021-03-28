@@ -8,3 +8,5 @@ led.asm
 *.rst
 *.sym
 *.hex
+*.adb
+*.cdb
